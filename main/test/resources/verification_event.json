@@ -1,1 +1,22 @@
-{}
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:189266647936:bexh-email-handler-topic:ec8d4460-e0b7-4fae-b148-c8419d5df4ba",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "b07f5119-e8b5-52b1-a41e-0915abceb998",
+        "TopicArn": "arn:aws:sns:us-east-1:189266647936:bexh-email-handler-topic",
+        "Subject": "test6",
+        "Message": "{\n  \"email\": \"sethsaps@gmail.com\",\n  \"first_name\": \"Seth\",\n  \"uid\": 1,\n  \"token\": \"123\"\n}",
+        "Timestamp": "2020-10-23T02:34:35.765Z",
+        "SignatureVersion": "1",
+        "Signature": "XW8+gHASGwbeZk2/k1I+RDaPaCZ6rk1Z2QUg+7a4dgSFNyu4csqmywDByajpOGGrTLg4A82+T9TVZWRX4YZJwDkK03/Ub1usbkuOu8dU7Gr2MlRLC1N4zR8+LF2JWDNA5GziOBWRDeWfxB4HKTz6BNeDZba78MSl/HB1rvHHK/GpbDYla8Ry9YlbrXeW8nq+YD0npMdHaHgHj7osHJ6xWVcWboQeq8F3XSomXyZ6pZUfG/5UYwohYYd6dM4GeVf7mDuK8WP8+xINIjH9A+EBBe7rmCuJVdzCQy3Fw8p4g7v56YR3MMQ54ra2R6j+xe2HzpNrR9ZgLhqjGVfWUKrxTg==",
+        "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-a86cb10b4e1f29c941702d737128f7b6.pem",
+        "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:189266647936:bexh-email-handler-topic:ec8d4460-e0b7-4fae-b148-c8419d5df4ba",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}

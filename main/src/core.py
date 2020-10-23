@@ -14,6 +14,7 @@ class EmailHandlerOperator(ABC):
         self.logger = LoggerFactory().get_logger(name, log_level)
         self.event = event
         self.context = context
+        self.mailer = MailerFactory().get_mailer(logger=self.logger)
         self.run()
 
     def run(self):
@@ -38,8 +39,7 @@ class EmailHandlerOperator(ABC):
         return content
 
     def send_email(self, from_email: str, to_email: str, subject: str, html_content: str):
-        mailer = MailerFactory().get_mailer(logger=self.logger)
-        mailer.send_message(
+        self.mailer.send_message(
             from_email=from_email,
             to_email=to_email,
             subject=subject,
