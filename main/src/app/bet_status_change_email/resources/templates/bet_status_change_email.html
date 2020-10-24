@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<h2>
+    {{ subject }}
+</h2>
+<p>
+    Hi {{ first_name }},<br/><br/>
+
+    Your bet on {{ on }} for {{ home }} vs {{ away }} at {{ date }}
+    for ${{ amount }}
+
+    {% if odds %}
+        at odds of {{ odds }}
+    {% endif %}
+
+    {% if with %}
+        with {{ with }}
+    {% else %}
+        on the exchange
+    {% endif %}
+
+    has been {{ bet_action }}.<br/><br/>
+
+    Sincerely,<br/>
+    The BEXH Team
+</p>
+</body>
+</html>

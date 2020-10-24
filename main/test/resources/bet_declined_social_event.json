@@ -1,0 +1,22 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-1:189266647936:bexh-email-handler-topic:ec8d4460-e0b7-4fae-b148-c8419d5df4ba",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "d592dff7-9e37-5832-a6a7-87f9d089a190",
+        "TopicArn": "arn:aws:sns:us-east-1:189266647936:bexh-email-handler-topic",
+        "Subject": "BET_DECLINED",
+        "Message": "{\n  \t\"email\": \"sethsaps@gmail.com\",\n    \"first_name\": \"Seth\",\n    \"on\": \"Detroit Lions\",\n    \"home\": \"Detroit Lions\",\n    \"away\": \"New England Patriots\",\n    \"date\": \"Monday, January 3rd, 10:00 AM\",\n    \"amount\": 35.50,\n    \"with\": \"Eris Llangos\",\n    \"odds\": 300\n}",
+        "Timestamp": "2020-10-24T15:47:10.590Z",
+        "SignatureVersion": "1",
+        "Signature": "XCpsz/jkArwEguKj3YFT5ZqsyUeh1wrOP8K37qtOW+I3yjUYXmJ6V2OCsImraY/O8QeE66kBK1nXfpmVJYz2eot2DcQvnsrGZHHAzdXeUv7o+fb6KgIX0/ex5YybaAaib55KAr2U/8BvPryw4w1blbOWn5/izklFJMcUqvHsMre0LCYerCDrOQUrUDR4FY03zModCAdu9WBua4ixWG/k8MQV5Glj/XiNIw8ZhH3ZPaZF/riZN78qlMCDh9g8xhECXjkJ7oIm23/M8Ad6LgEVZv6j8ulhxXCMPcP7XKCMj+FxEUb6ApGrfImU4xkZuYvPkjI87SKTqDVVqtAnMxRpYg==",
+        "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-a86cb10b4e1f29c941702d737128f7b6.pem",
+        "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:189266647936:bexh-email-handler-topic:ec8d4460-e0b7-4fae-b148-c8419d5df4ba",
+        "MessageAttributes": {}
+      }
+    }
+  ]
+}
