@@ -29,7 +29,7 @@ build:
 	}
 
 test:
-	pipenv run pytest -q main/test/sample_tests.py
+	pipenv run pytest -q main/test/tests.py
 
 help:
 	{ \
